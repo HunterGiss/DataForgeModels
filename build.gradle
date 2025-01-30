@@ -4,14 +4,11 @@
 
 plugins {
     id 'buildlogic.java-application-conventions'
+    id 'io.freefair.lombok' version '8.12'
 }
 
 dependencies {
     implementation 'org.apache.commons:commons-text'
-    implementation project(':utilities')
 }
 
-application {
-    // Define the main class for the application.
-    mainClass = 'org.example.app.App'
-}
+// No main class, this is a shared library of POJOs, so no need for the `application` block
