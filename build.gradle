@@ -28,3 +28,6 @@ java {
         languageVersion = JavaLanguageVersion.of(17)
     }
 }
+
+group = 'com.dataforge'
+version = '1.0-SNAPSHOT'
