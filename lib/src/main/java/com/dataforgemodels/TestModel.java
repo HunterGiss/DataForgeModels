@@ -1,4 +1,4 @@
-package com.dataforge.models;
+package com.dataforgemodels;
 
 import lombok.Builder;
 import lombok.Data;
