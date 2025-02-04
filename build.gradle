@@ -29,5 +29,5 @@ java {
     }
 }
 
-group = 'com.dataforge'
-version = '1.0-SNAPSHOT'
+group = 'com.dataforgemodels'
+version = '1.0.0'
